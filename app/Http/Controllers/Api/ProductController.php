@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-// ✅ IMPORT MODEL & RESOURCE YANG BENAR
 use App\Models\Product;
 use App\Models\Brand;
 use App\Http\Resources\ProductResource;
