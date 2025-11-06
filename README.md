@@ -33,9 +33,14 @@ Salin file .env.example menjadi .env:
 
 cp .env.example .env
 
-Lalu generate application key:
-
+Lalu jalankan
 php artisan key:generate
+php artisan migrate
+php artisan db:seed
+
+# run 
+php artisan dev
+
 
 
 Berikut contoh konfigurasi dasar:
